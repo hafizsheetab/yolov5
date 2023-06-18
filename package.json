@@ -1,0 +1,27 @@
+{
+  "name": "yolov5",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <p>\r     <a align=\"center\" href=\"https://ultralytics.com/yolov5\" target=\"_blank\">\r       <img width=\"100%\" src=\"https://raw.githubusercontent.com/ultralytics/assets/main/yolov5/v70/splash.png\"></a>\r   </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafizsheetab/yolov5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hafizsheetab/yolov5/issues"
+  },
+  "homepage": "https://github.com/hafizsheetab/yolov5#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jimp": "^0.22.8",
+    "node-tesseract-ocr": "^2.2.1",
+    "rimraf": "^5.0.1"
+  }
+}
