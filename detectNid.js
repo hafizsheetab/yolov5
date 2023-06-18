@@ -8,7 +8,7 @@ const { rimrafSync } = require('rimraf');
 async function runYOLOv5(weightsPath, imagePath) {
   return new Promise(function (resolve, reject) {
     const yolov5Process = spawn(
-      'python',
+      process.env.PYTHON_COMMAND,
       [
         'detect.py',
         '--weights',
