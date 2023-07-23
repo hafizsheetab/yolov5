@@ -102,7 +102,7 @@ const croppedImage = async (imagePath, coordinates, masterDirPath) => {
       const yoloY = coordinates[1];
       const yoloWidth = coordinates[2];
       const yoloHeight = coordinates[3];
-
+      console.log(coordinates)
       // Convert normalized coordinates to pixel coordinates
       const pixelX = yoloX * imageWidth;
       const pixelY = yoloY * imageHeight;
