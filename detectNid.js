@@ -47,7 +47,8 @@ async function runYOLOv5(weightsPath, imagePath) {
 const labelAnalysis = async (labelPath) => {
   // Read the contents of the text file
   const data = fs.readFileSync(labelPath, 'utf8');
-
+  console.log("Label Data")
+  console.log(data)
   // Split the data by newline character to get each line
   const lines = data.split('\n');
 
