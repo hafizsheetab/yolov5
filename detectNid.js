@@ -118,9 +118,6 @@ const croppedImage = async (imagePath, coordinates, masterDirPath) => {
 
       image
         .crop(x, y, width, height)
-        .normalize()
-        .grayscale()
-        .greyscale()
         .write(`./${masterDirPath}/cropped_image.jpg`); // Save the cropped image
       console.log('cropped_image');
     
